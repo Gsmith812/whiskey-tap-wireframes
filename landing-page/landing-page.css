@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+nav, footer {
+    padding: 2% 0;
+    background-color: grey;
+}
+
+header {
+    padding: 20px;
+}
+
+li {
+    text-align: left;
+}
+
+.welcome-message {
+    background-color: rgb(179, 179, 179);
+    padding: 1%;
+    margin: 1rem;
+}
+
+.instructions {
+    padding: 1%;
+    margin: 1rem;
+    background-color: rgb(199, 199, 199)
+}
