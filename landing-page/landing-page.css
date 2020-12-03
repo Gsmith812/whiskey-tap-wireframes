@@ -5,6 +5,7 @@
 body {
     font-size: 20px;
     text-align: center;
+    background-color: black;
 }
 
 nav {
@@ -22,6 +23,7 @@ nav, footer {
 
 header {
     padding: 20px;
+    color: white;
 }
 
 li {
