@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+nav, footer {
+    background-color: grey;
+    padding: 2% 0;
+}
+
+header {
+    padding: 20px;
+    color: white;
+}
+
+.add-recipe-form {
+    background-color: rgb(196, 196, 196);
+    margin: 1rem;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+footer {
+    margin-top: 15vh;
+}

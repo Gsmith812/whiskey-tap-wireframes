@@ -2,12 +2,43 @@
 <html lang="en">
 
     <head>
-        <title>Landing Page Wireframe</title>
+        <title>Add/Edit Recipe Page Wireframe</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-        <link rel="stylesheet" type="text/css" href="landing-page.css">
+        <link rel="stylesheet" type="text/css" href="add-recipe-page.css">
     </head>
     <body>
-    
+        <nav>Nav Bar</nav>
+        <header>
+            <h1>Whiskey Tap</h1>
+        </header>
+        <main>
+            <section class='add-recipe-form'>
+                <h2>Add Recipe</h2>
+                <form class='add-recipe'>
+                    <section class="input-fields">
+                        <label for='cocktail-name'>Cocktail Name: </label>
+                        <input type='text' id='cocktail-name' name='cocktail-name' placeholder="Perfect Manahattan" required/>
+                        <fieldset for='cocktail-ingredients' class="ingredients">
+                            <label for='ingredient-1'>Ingredient 1: </label>
+                            <input type='text' id='ingredient-1' name='ingredient-1' placeholder='Bourbon'>
+                            <label for='quantity'>Quanity( in oz ): </label>
+                            <input type='number' max='3'/>
+                            <button>Add Ingredient</button>
+                        </fieldset>
+                        <label for='description'>Description: </label>
+                        <textarea id='description'></textarea>
+                    </section>
+                    <section class="form-buttons">
+                        <button type='submit'>Add Recipe</button>
+                        <button type='reset'>Reset</button>
+                    </section>
+                    
+                </form>
+            </section>
+        </main>
+        <footer>
+            Footer Content
+        </footer>
     </body>
 </html>
