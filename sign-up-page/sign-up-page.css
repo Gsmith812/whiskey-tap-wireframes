@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+nav, footer {
+    background-color: grey;
+    padding: 2% 0;
+}
+
+header {
+    padding: 2rem;
+    color: white;
+}
+
+.sign-up-form {
+    background-color: rgb(187, 187, 187);
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 1rem auto;
+}
+
+footer {
+    margin-top: 12vh;
+}
