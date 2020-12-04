@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+nav, footer {
+    background-color: grey;
+    padding: 2% 0;
+}
+
+header {
+    padding: 20px;
+    color: white;
+}
+
+.filter {
+    background-color: rgb(192, 192, 192);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.cocktail-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cocktail-item {
+    background-color: rgb(196, 196, 196);
+    margin: 1rem;
+    padding: .5rem 0;
+}

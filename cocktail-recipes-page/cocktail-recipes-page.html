@@ -2,12 +2,65 @@
 <html lang="en">
 
     <head>
-        <title>Landing Page Wireframe</title>
+        <title>Cocktail Recipe Page Wireframe</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-        <link rel="stylesheet" type="text/css" href="landing-page.css">
+        <link rel="stylesheet" type="text/css" href="cocktail-recipes-page.css">
     </head>
     <body>
-    
+        <nav>Nav Bar</nav>
+        <header>
+            <h1>Whiskey Tap</h1>
+        </header>
+        <main>
+            <section class='filter'>
+                <h2>Whiskey Cocktails</h2>
+                <form class='search-form'>
+                    <label for='cocktail-search'>Search: </label>
+                    <input type='text' id='cocktail-search' name='cocktail-search' placeholder='Perfect Manhattan' />
+                    <button type="submit">Search</button>
+                </form>
+                <form class='filter-by-whiskey'>
+                    <label for='filter-whiskey'>
+                        Select Whiskey: 
+                    </label>
+                    <select id='filter-whiskey'>
+                        <option value='All'>All</option>
+                        <option value='Rye'>Rye</option>
+                        <option value='Bourbon'>Bourbon</option>
+                        <option value='Scotch'>Scotch</option>
+                    </select>
+                </form>
+            </section>
+            <section class='cocktail-content'>
+                <section class='cocktail-item'>
+                    <a href=''><h3>Perfect Manhattan</h3></a>
+                    <p>Insert stock image here</p>
+                    <p>This martini-style cocktail is a perfect blend of ingredients...</p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </section>
+                <section class='cocktail-item'>
+                    <a href=''><h3>Old-Fashioned</h3></a>
+                    <p>Insert stock image here</p>
+                    <p>This classic 'Old Fashioned' style drink has lots of history and a flavor punch to complement it.</p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </section>
+                <section class='cocktail-item'>
+                    <a href=''><h3>Perfect Manhattan</h3></a>
+                    <p>Insert stock image here</p>
+                    <p>This martini-style cocktail is a perfect blend of ingredients...</p>
+                </section>
+                <section class='cocktail-item'>
+                    <a href=''><h3>Old-Fashioned</h3></a>
+                    <p>Insert stock image here</p>
+                    <p>This classic 'Old Fashioned' style drink has lots of history and a flavor punch to complement it.</p>
+                </section>
+            </section>
+        </main>
+        <footer>
+            Footer Content
+        </footer>
     </body>
 </html>
